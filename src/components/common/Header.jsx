@@ -14,10 +14,10 @@ export const Header = () => {
         <div className="container flex justify-between items-center">
           <div className="logo flex items-center gap-6">
             <img src={LogoImg1} alt="logo" className="h-14" />
-            <div className="category flex items-center text-sm gap-3">
+            {/*<div className="category flex items-center text-sm gap-3">
               <HiViewGrid size={20} />
               <span>category</span>
-            </div>
+            </div>*/}
           </div>
           <nav className={open ? "mobile-view" : "desktop-view"}>
             <ul className="flex items-center gap-6">
